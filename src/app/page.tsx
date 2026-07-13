@@ -54,49 +54,7 @@ export default function Home() {
       </section>
 
       <section className="proof-strip" aria-label="Aquiles product coverage">
-        <span>One agent</span><span>Inside Codex</span><span>3 live products</span><span>Production-minded</span>
-      </section>
-
-      <section className="case-section" id="proof">
-        <Reveal className="case-heading">
-          <h2>Three products. Live MRR. One agent.</h2>
-          <p>VOXA, Forge, and Benchline were built end to end and are maintained in production by Aquiles.</p>
-        </Reveal>
-        <div className="case-grid">
-          <Reveal className="case-card case-voxa">
-            <a href="https://voxa.netolabs.dev" target="_blank" rel="noreferrer" aria-label="Open VOXA in production">
-              <div className="case-image-wrap">
-                <Image src="/images/case-voxa.webp" alt="VOXA production landing page" fill sizes="(max-width: 820px) 100vw, 58vw" className="case-image" />
-              </div>
-              <div className="case-body">
-                <div><h3>VOXA</h3><p>Conversation intelligence that turns recordings into transcripts, decisions, and next actions.</p></div>
-                <div className="case-facts"><span>Live MRR</span><span>voxa.netolabs.dev</span><span>100% built and maintained by Aquiles</span></div>
-              </div>
-            </a>
-          </Reveal>
-          <Reveal className="case-card case-forge" delay={0.06}>
-            <a href="https://forge.netolabs.dev" target="_blank" rel="noreferrer" aria-label="Open Forge in production">
-              <div className="case-image-wrap">
-                <Image src="/images/case-forge.webp" alt="Forge production product screen" fill sizes="(max-width: 820px) 100vw, 42vw" className="case-image" />
-              </div>
-              <div className="case-body">
-                <div><h3>Forge</h3><p>An operating platform to build, ground, evaluate, and observe dependable AI agents.</p></div>
-                <div className="case-facts"><span>Live MRR</span><span>forge.netolabs.dev</span><span>100% built and maintained by Aquiles</span></div>
-              </div>
-            </a>
-          </Reveal>
-          <Reveal className="case-card case-benchline" delay={0.1}>
-            <a href="https://evals.netolabs.dev" target="_blank" rel="noreferrer" aria-label="Open Benchline in production">
-              <div className="case-image-wrap">
-                <Image src="/images/case-benchline.webp" alt="Benchline production agent evaluation platform" fill sizes="100vw" className="case-image" />
-              </div>
-              <div className="case-body">
-                <div><h3>Benchline</h3><p>The quality control plane that gives every AI agent an evidence-backed release decision.</p></div>
-                <div className="case-facts"><span>Live MRR</span><span>evals.netolabs.dev</span><span>100% built and maintained by Aquiles</span></div>
-              </div>
-            </a>
-          </Reveal>
-        </div>
+        <span>One agent</span><span>Inside Codex</span><span>Products in production</span><span>Production-minded</span>
       </section>
 
       <section className="risk-section">
@@ -238,6 +196,48 @@ export default function Home() {
             <summary>What happens after I buy?</summary>
             <p>NetoLabs sends the licensed plugin and installation guide so you can add Aquiles to Codex and start in your repository.</p>
           </details>
+        </div>
+      </section>
+
+      <section className="case-section" id="proof">
+        <Reveal className="case-heading">
+          <h2>Selected work. Running in production.</h2>
+          <p>Highlights from products built end to end and continuously maintained by Aquiles.</p>
+        </Reveal>
+        <div className="case-grid">
+          <Reveal className="case-card case-voxa">
+            <a href="https://voxa.netolabs.dev" target="_blank" rel="noreferrer" aria-label="Open VOXA in production">
+              <div className="case-image-wrap">
+                <Image src="/images/case-voxa.webp" alt="VOXA production landing page" fill sizes="(max-width: 820px) 100vw, 58vw" className="case-image" />
+              </div>
+              <div className="case-body">
+                <div><h3>VOXA</h3><p>Conversation intelligence that turns recordings into transcripts, decisions, and next actions.</p></div>
+                <div className="case-facts"><span>voxa.netolabs.dev</span><span>100% built and maintained by Aquiles</span></div>
+              </div>
+            </a>
+          </Reveal>
+          <Reveal className="case-card case-forge" delay={0.06}>
+            <a href="https://forge.netolabs.dev" target="_blank" rel="noreferrer" aria-label="Open Forge in production">
+              <div className="case-image-wrap">
+                <Image src="/images/case-forge.webp" alt="Forge production product screen" fill sizes="(max-width: 820px) 100vw, 42vw" className="case-image" />
+              </div>
+              <div className="case-body">
+                <div><h3>Forge</h3><p>An operating platform to build, ground, evaluate, and observe dependable AI agents.</p></div>
+                <div className="case-facts"><span>forge.netolabs.dev</span><span>100% built and maintained by Aquiles</span></div>
+              </div>
+            </a>
+          </Reveal>
+          <Reveal className="case-card case-benchline" delay={0.1}>
+            <a href="https://evals.netolabs.dev" target="_blank" rel="noreferrer" aria-label="Open Benchline in production">
+              <div className="case-image-wrap">
+                <Image src="/images/case-benchline.webp" alt="Benchline production agent evaluation platform" fill sizes="100vw" className="case-image" />
+              </div>
+              <div className="case-body">
+                <div><h3>Benchline</h3><p>The quality control plane that gives every AI agent an evidence-backed release decision.</p></div>
+                <div className="case-facts"><span>evals.netolabs.dev</span><span>100% built and maintained by Aquiles</span></div>
+              </div>
+            </a>
+          </Reveal>
         </div>
       </section>
 
