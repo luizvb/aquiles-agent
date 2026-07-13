@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { BrandMark } from "@/components/brand-mark";
+import { KnowledgeGraph } from "@/components/knowledge-graph";
 import {
   CapabilityGrid,
   CheckItem,
@@ -30,6 +31,7 @@ export default function Home() {
         <nav aria-label="Primary navigation">
           <a href="#proof">Proof</a>
           <a href="#capabilities">Capabilities</a>
+          <a href="#knowledge">Knowledge</a>
           <a href="#codex">Codex</a>
           <a href="#pricing">Pricing</a>
         </nav>
@@ -148,6 +150,20 @@ export default function Home() {
           <p>Not a bag of prompts. A complete engineering operating model, ready to work in your repository.</p>
         </Reveal>
         <CapabilityGrid />
+      </section>
+
+      <section className="knowledge-section" id="knowledge">
+        <Reveal className="knowledge-heading">
+          <h2>A connected mind for the whole build.</h2>
+          <p>Aquiles brings twelve disciplines into one working context, so product decisions survive every handoff from idea to operation.</p>
+        </Reveal>
+        <KnowledgeGraph />
+        <div className="knowledge-summary">
+          <div><strong>12</strong><span>connected disciplines</span></div>
+          <div><strong>One</strong><span>working context</span></div>
+          <div><strong>Always</strong><span>refined by evidence</span></div>
+        </div>
+        <p className="knowledge-note">The advantage is not a vanity parameter count. It is connecting the right expertise to every product decision.</p>
       </section>
 
       <section className="codex-section" id="codex">
